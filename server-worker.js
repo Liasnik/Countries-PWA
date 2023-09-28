@@ -26,31 +26,31 @@
 
 //==========================================
 
-// Устанавливаем тип MIME для сервис-воркера
-// self.toolbox.router.get(/service-worker.js/, self.toolbox.cacheFirst, {
-//   // Устанавливаем правильный тип MIME для JavaScript
-//   cache: {
-//     name: 'js-cache',
-//     maxEntries: 10,
-//     maxAgeSeconds: 3600,
-//     map: {
-//       js: 'application/javascript', // Указываем тип MIME для .js файлов
-//     },
-//   },
-// })
+//Устанавливаем тип MIME для сервис-воркера
+self.toolbox.router.get(/service-worker.js/, self.toolbox.cacheFirst, {
+  // Устанавливаем правильный тип MIME для JavaScript
+  cache: {
+    name: 'js-cache',
+    maxEntries: 10,
+    maxAgeSeconds: 3600,
+    map: {
+      js: 'application/javascript', // Указываем тип MIME для .js файлов
+    },
+  },
+})
 
-// // Устанавливаем имя кеша
-// const CACHE_NAME = 'my-cache-name'
+// Устанавливаем имя кеша
+const CACHE_NAME = 'my-cache-name'
 
-// // Список ресурсов, которые будем кэшировать
-// const urlsToCache = [
-//   '/',
-//   '/index.html',
-//   '/manifest.json',
-//   '/static/js/bundle.js',
-//   '/static/css/main.css',
-//   // Добавьте другие ресурсы, которые вы хотите закэшировать
-// ]
+// Список ресурсов, которые будем кэшировать
+const urlsToCache = [
+  '/',
+  '/index.html',
+  '/manifest.json',
+  '/static/js/bundle.js',
+  '/static/css/main.css',
+  // Добавьте другие ресурсы, которые вы хотите закэшировать
+]
 
 // Установка сервис-воркера
 self.addEventListener('install', (event) => {
