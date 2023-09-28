@@ -26,6 +26,14 @@
 
 //==========================================
 
+// @ts-ignore
+importScripts(
+  'https://cdnjs.cloudflare.com/ajax/libs/sw-toolbox/3.6.1/sw-toolbox.js'
+)
+
+self.toolbox.options.debug = false
+self.toolbox.options.networkTimeoutSeconds = 15
+
 //Устанавливаем тип MIME для сервис-воркера
 self.toolbox.router.get(/service-worker.js/, self.toolbox.cacheFirst, {
   // Устанавливаем правильный тип MIME для JavaScript
