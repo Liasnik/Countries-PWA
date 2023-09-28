@@ -1,0 +1,48 @@
+{
+    "name": "Countries",
+
+    "short_name": "Countries",
+
+    "description": "Explore countries and regions.",
+
+    "start_url": "/",
+    
+    "display": "standalone",
+   
+    "background_color": "#ffffff",
+   
+    "theme_color": "#0078d4",
+ 
+    "icons": [
+      {
+        "src": "/images/White720-347.png",
+        "sizes": "720x347",
+        "type": "image/png"
+      },
+      {
+        "src": "/images/Black720x347.png",
+        "sizes": "720x347",
+        "type": "image/png"
+      },
+      {
+        "src": "/images/Black512x246.png",
+        "sizes": "512x246",
+        "type": "image/png"
+      },
+      {
+        "src": "/images/Black192x92.png",
+        "sizes": "192x92",
+        "type": "image/png"
+      },
+      {
+        "src": "/images/Black64x30.png",
+        "sizes": "64x30",
+        "type": "image/png"
+      },
+      {
+        "src": "/images/Black32x15.png",
+        "sizes": "32x15",
+        "type": "image/png"
+      },
+    ]
+  }
