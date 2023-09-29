@@ -1,17 +1,15 @@
 {
   "files": {
     "main.css": "/Countries-PWA/static/css/main.17244cfd.css",
-    "main.js": "/Countries-PWA/static/js/main.d178c165.js",
+    "main.js": "/Countries-PWA/static/js/main.0c917528.js",
     "static/media/Black720x347.png": "/Countries-PWA/static/media/Black720x347.d6a5b87843aa959fbeb6.png",
     "static/media/White720-347.png": "/Countries-PWA/static/media/White720-347.6116301dbd2bc98b0b53.png",
-    "static/media/MapWhite_612.png": "/Countries-PWA/static/media/MapWhite_612.aebca856d36b65c815a4.png",
-    "static/media/MapBlack_614.png": "/Countries-PWA/static/media/MapBlack_614.3c68ce594b8ee64c163a.png",
     "index.html": "/Countries-PWA/index.html",
     "main.17244cfd.css.map": "/Countries-PWA/static/css/main.17244cfd.css.map",
-    "main.d178c165.js.map": "/Countries-PWA/static/js/main.d178c165.js.map"
+    "main.0c917528.js.map": "/Countries-PWA/static/js/main.0c917528.js.map"
   },
   "entrypoints": [
     "static/css/main.17244cfd.css",
-    "static/js/main.d178c165.js"
+    "static/js/main.0c917528.js"
   ]
 }
