@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/Countries-PWA/static/css/main.17244cfd.css",
-    "main.js": "/Countries-PWA/static/js/main.2a6c320e.js",
+    "main.js": "/Countries-PWA/static/js/main.0c917528.js",
     "static/media/Black720x347.png": "/Countries-PWA/static/media/Black720x347.d6a5b87843aa959fbeb6.png",
     "static/media/White720-347.png": "/Countries-PWA/static/media/White720-347.6116301dbd2bc98b0b53.png",
     "index.html": "/Countries-PWA/index.html",
     "main.17244cfd.css.map": "/Countries-PWA/static/css/main.17244cfd.css.map",
-    "main.2a6c320e.js.map": "/Countries-PWA/static/js/main.2a6c320e.js.map"
+    "main.0c917528.js.map": "/Countries-PWA/static/js/main.0c917528.js.map"
   },
   "entrypoints": [
     "static/css/main.17244cfd.css",
-    "static/js/main.2a6c320e.js"
+    "static/js/main.0c917528.js"
   ]
 }
